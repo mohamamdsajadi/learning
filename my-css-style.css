@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'BNazanin';
+  font-style: normal;
+ font-weight: 10px;
+  src: url('https://github.com/ahoseinian/css-persian/raw/master/fonts/BNazanin.eot') format('eot'),  /* IE6–8 */
+       url('https://github.com/ahoseinian/css-persian/raw/master/fonts/BNazanin.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('https://github.com/ahoseinian/css-persian/raw/master/fonts/BNazanin.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+@font-face {
+  font-family: 'iranSans';
+  font-style: normal;
+ font-weight: 16px;
+  src: url('https://github.com/mohamamdsajadi/learning/blob/master/Sans%20a4fran3.eot') format('eot'),  /* IE6–8 */
+       url('https://github.com/mohamamdsajadi/learning/blob/master/Sans%20a4fran3.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('https://github.com/mohamamdsajadi/learning/blob/master/Sans%20a4fran3.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+.container{
+    width: 100%;
+
+}
+.t-Region-title{
+    margin-right: 50%;
+}
+.MyCol1{
+    margin:20px;
+   
+}
+
+ .button{
+     width: 120px; height: 80px; position: relative;
+    display: inline-block; vertical-align: top; padding-top: 48px;
+    background-repeat: no-repeat, no-repeat;
+    /* background-position: 50% 50%; */
+    background-position: center 8px, center center; 
+    background-size: 40px, auto;
+    border: 1px solid #aaa; border-radius: 3px;
+   font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    opacity: 0.8;
+
+ }  
+ .button:active {
+    transform: translateY(4px);
+ }
+ #gharardad{
+     background-image: url(https://img.icons8.com/cotton/50/000000/construction-plan.png), 
+        linear-gradient(#854dee, #854dee);
+        
+ }
+ #gharardad:hover{
+     background-image: url(https://img.icons8.com/cotton/50/000000/construction-plan.png), 
+        linear-gradient(#854dee, #854dee);
+        opacity: 1;
+        
+ }
+ #savabegh{
+      background-image: url("https://img.icons8.com/color/48/000000/time-machine--v1.png"), 
+        linear-gradient(#ffbe55, #ffbe55);  
+        background-position: center 8px, center center; 
+        background-size: 50px,auto;
+        padding-top: 55px;
+ }
+ #savabegh:hover{
+      background-image: url("https://img.icons8.com/color/48/000000/time-machine--v1.png"), 
+        linear-gradient(#ffbe55, #ffbe55);  
+        background-position: center 8px, center center; 
+        background-size: 50px,auto;
+        padding-top: 55px;
+        opacity: 1;
+ }
+ #omore_moshtarakin {
+     background-image: url("https://img.icons8.com/stickers/100/000000/user.png"), 
+        linear-gradient(#ee4351, #ee4351);  
+
+ }
+ #omore_moshtarakin:hover {
+     background-image: url("https://img.icons8.com/stickers/100/000000/user.png"), 
+        linear-gradient(#ee4351, #ee4351);  
+        opacity: 1;
+
+ }
+ #baste_haye_enerzhi{
+        background-image: url("https://img.icons8.com/dusk/50/000000/toolbox.png"), 
+        linear-gradient(#40d9ff, #40d9ff); 
+
+ }
+ #baste_haye_enerzhi:hover{
+        background-image: url("https://img.icons8.com/dusk/50/000000/toolbox.png"), 
+        linear-gradient(#40d9ff, #40d9ff); 
+        opacity: 1;
+
+ }
+ #tarh_haye_tashviqi{
+      background-image: url("https://img.icons8.com/external-flatarticons-blue-flatarticons/65/000000/external-gift-valentines-day-flatarticons-blue-flatarticons.png"), 
+        linear-gradient(#54fd5c, #54fd5c); 
+ }
+ #tarh_haye_tashviqi:hover{
+      background-image: url("https://img.icons8.com/external-flatarticons-blue-flatarticons/65/000000/external-gift-valentines-day-flatarticons-blue-flatarticons.png"), 
+        linear-gradient(#54fd5c, #54fd5c); 
+        opacity: 1;
+ }
