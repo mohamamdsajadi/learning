@@ -1,0 +1,81 @@
+
+    .button{
+        width: 120px; height: 80px; position: relative;
+       display: inline-block; vertical-align: top; padding-top: 48px;
+       background-repeat: no-repeat, no-repeat;
+       /* background-position: 50% 50%; */
+       background-position: center 8px, center center; 
+       background-size: 40px, auto;
+       border: 1px solid #aaa; border-radius: 3px;
+      font-family: 'iranSans';
+       font-size: initial;
+       color: black;
+       opacity: 0.8;
+   
+    }  
+    .button:active {
+       transform: translateY(4px);
+    }
+    #gharardadha{
+        background-image: url(https://img.icons8.com/cotton/50/000000/construction-plan.png), 
+           linear-gradient(#854dee, #854dee);
+           
+    }
+    #gharardadha:hover{
+        background-image: url(https://img.icons8.com/cotton/50/000000/construction-plan.png), 
+           linear-gradient(#854dee, #854dee);
+           opacity: 1;
+           
+    }
+    #savabegh{
+         background-image: url("https://img.icons8.com/color/48/000000/time-machine--v1.png"), 
+           linear-gradient(#ffbe55, #ffbe55);  
+           
+    }
+    #savabegh:hover{
+         background-image: url("https://img.icons8.com/color/48/000000/time-machine--v1.png"), 
+           linear-gradient(#ffbe55, #ffbe55);  
+           opacity: 1;
+    }
+    #omore_moshtarakin {
+        background-image: url("https://img.icons8.com/stickers/100/000000/user.png"), 
+           linear-gradient(#ee4351, #ee4351);  
+   
+    }
+    #omore_moshtarakin:hover {
+        background-image: url("https://img.icons8.com/stickers/100/000000/user.png"), 
+           linear-gradient(#ee4351, #ee4351);  
+           opacity: 1;
+   
+    }
+    #baste_haye_enerzhi{
+           background-image: url("https://img.icons8.com/dusk/50/000000/toolbox.png"), 
+           linear-gradient(#40d9ff, #40d9ff); 
+   
+    }
+    #baste_haye_enerzhi:hover{
+           background-image: url("https://img.icons8.com/dusk/50/000000/toolbox.png"), 
+           linear-gradient(#40d9ff, #40d9ff); 
+           opacity: 1;
+   
+    }
+    #tarh_haye_tashviqi{
+         background-image: url("https://img.icons8.com/external-flatarticons-blue-flatarticons/65/000000/external-gift-valentines-day-flatarticons-blue-flatarticons.png"), 
+           linear-gradient(#54fd5c, #54fd5c); 
+    }
+    #tarh_haye_tashviqi:hover{
+         background-image: url("https://img.icons8.com/external-flatarticons-blue-flatarticons/65/000000/external-gift-valentines-day-flatarticons-blue-flatarticons.png"), 
+           linear-gradient(#54fd5c, #54fd5c); 
+           opacity: 1;
+    }
+    /*.button{
+     font-display: inherit;
+     font-size: 14px;
+    font-weight: 14px;
+   }
+   #tarh_haye_tashviqi {
+       font-size: 12px;
+       padding-left: 17px;
+   
+   
+   }*/
